@@ -1,0 +1,1025 @@
+body {
+    height: 3050px;
+    margin: 0;
+    padding: 0px;
+    background-color: rgb(168, 188, 206);
+}
+
+#header {
+    margin-left: 10px;
+    min-height: 100px;
+    border-bottom: 2px solid black;
+    width: 1500px;
+    background: linear-gradient(to bottom right, rgba(255, 69, 0, 1), rgba(68, 131, 207, 1)); 
+    z-index: 1000;
+    opacity: 1;
+}
+
+#row1 {
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+}
+
+.spaces {
+    /* background-color: greenyellow; */
+    background-color: rgb(238, 227, 15);
+    border-left: none;
+    display: grid;
+    height: 150px;
+    width: 100px;
+    border-bottom: none;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+#A1 {
+    border-left: 2px solid black;
+    border-top-left-radius: 5px;
+}
+
+#A15 {
+    border-top-right-radius: 5px;
+}
+
+#A16, #A29 {
+    border-left: 2px solid black;
+}
+
+#A2, #A3 {
+    border-left: none;
+    margin-left: 0px;
+}
+  
+
+.images {
+    
+    margin-left: -8.7px;
+    height: 105px;
+    width: 97px;
+}
+
+#img1{
+    margin-left: -10px;
+}
+
+#row2 {
+    border: 2px solid black;
+    height: 200px;
+    margin-left: 10px;
+    width: 98.98%;
+    border-top: none;
+    border-bottom: none;
+    background-color: rgb(206, 216, 218);
+    cursor: pointer;
+}
+
+#parking-logo1 {
+    position: relative;
+    left: 42%;
+    height: 200px;
+    width: 20%;
+    mix-blend-mode: color-burn;
+    opacity: 1;
+}
+/* #dottedline {
+    border-bottom: 5px dashed black;
+    position: relative;
+    top: 60px;
+    margin-left: 22px;
+    width: 1450px;
+}
+
+#dottedline2 {
+    border-bottom: 5px dashed black;
+    position: relative;
+    top: 120px;
+    margin-left: 22px;
+    width: 1450px;
+} */
+
+
+#roadsideimage1{
+    position: relative;
+    top: 2%;
+    left: 50%;
+     height: 100px;
+     width: 100px;
+     padding-top: 50px;
+     display: flex;
+     justify-content: center;
+}
+
+#roadsideimage2 {
+    margin-left: 0px;
+    mix-blend-mode: color-burn;
+    transform: rotate(90deg);
+    height: 90px;
+    
+}
+
+
+
+
+#row3 {
+    display: flex;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#road1, #road2 {
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    border-left: 2px solid black;
+    background-color: rgb(206, 216, 218);
+    width: 200px;
+    height: 150px;
+}
+
+.spaces2 {
+    /* background-color: greenyellow; */
+    background-color: rgb(238, 227, 15);
+    border-left: none;
+    display: grid;
+    height: 150px;
+    width: 100px;
+    border-top: none;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.images2 {
+    transform: rotate(180deg);
+
+    margin-left: -8.7px;
+    height: 105px;
+    width: 97px;
+}
+
+
+
+
+
+.text2 {
+    transform: rotate(180deg);
+}
+
+#xyz {
+    border: none;
+    display: flex;
+    height: 10px;
+}
+
+
+#grass-space {
+    background-color: rgb(206, 216, 218);;
+    margin-left: 10px;
+    border-top: none;
+    border-bottom: none;
+    border-left: 2px solid black;
+    width: 199px;
+
+}
+
+#grass {
+    /* border: 2px solid green; */
+    border: 2px solid rgb(238, 227, 15);;
+    padding: 0;
+    height: 10px;
+    width: 1296.5px;
+   }
+
+#row4 {
+    cursor: pointer;
+    margin-top: 0px;
+    display: flex;
+    margin-left: 10px;
+}
+
+.spaces3 {
+    /* background-color: greenyellow; */
+    background-color: rgb(238, 227, 15);
+    border-left: none;
+    display: grid;
+    height: 150px;
+    width: 100px;
+    border-bottom: none;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.images3 {
+    margin-left: -8.7px;
+    height: 105px;
+    width: 97px;
+}
+
+
+#row5 {
+    border: 2px solid black;
+    height: 200px;
+    margin-left: 10px;
+    width: 98.98%;
+    border-top: none;
+    border-bottom: none; 
+    background-color: rgb(206, 216, 218);
+}
+
+#parking-logo2 {
+    position: relative;
+    bottom: 0%;
+    left: 38%;
+    height: 200px;
+    width: 20%;
+    mix-blend-mode: color-burn;
+    opacity: 1;
+}
+
+/* #dottedline3 {
+    border-bottom: 5px dashed black;
+    margin-left: 22px;
+    position: relative;
+    top: 60px;
+    width: 97%;
+}
+
+#dottedline4 {
+    border-bottom: 5px dashed black;
+    position: relative;
+    top: 120px;
+    margin-left: 22px;
+    width: 97%;
+} */
+
+.spaces4 {
+    /* background-color: greenyellow; */
+    background-color: rgb(238, 227, 15);
+    border-left: none;
+    display: grid;
+    height: 150px;
+    width: 100px;
+    border-top: none;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.images4 {
+    transform: rotate(180deg);
+
+    margin-left: -8.7px;
+    height: 105px;
+    width: 97px;
+}
+
+.text4 {
+    transform: rotate(180deg);
+}
+
+
+
+/* #row {
+    border: 2px solid black;
+    height: 200px;
+    margin-left: 10px;
+    width: 1497px;
+    border-top: none;
+    border-bottom: none;
+    background-color: rgb(206, 216, 218);
+} */
+
+#row6 {
+    cursor: pointer;
+    display: flex;
+    margin-left: 10px;
+    border: 2px solid black;
+    border-top: none;
+    border-bottom: none;
+    height: 150px;
+    width: 98.95%;
+}
+
+.images4 {
+    transform: rotate(180deg);
+
+    margin-left: -8px;
+    height: 105px;
+    width: 96px;
+}
+
+#road3 {
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    border-left: 2px solid black;
+    background-color: rgb(206, 216, 218);
+    width: 200px;
+    height: 150px;
+}
+
+#roadsideimage3 {
+        margin-left: 0px;
+        mix-blend-mode: color-burn;
+        transform: rotate(-90deg);
+        height: 90px;
+     
+}
+
+#roadsideimage4 {
+    margin-left: 0px;
+    mix-blend-mode: color-burn;
+    transform: rotate(90deg);
+    height: 90px;
+ 
+}
+
+#xyz2 {
+    margin-left: 10px;
+    border: none;
+    display: flex;
+    height: 10px;
+}
+
+
+
+#grass2 {
+    border: 2px solid black;
+    border-top: none;
+    padding: 0;
+    height: 10px;
+    width: 86.55%;
+}
+
+
+#grass-space2 {
+    background-color: rgb(206, 216, 218);
+    border: none;
+    width: 195px;
+    border-right: 2px solid black;
+
+}
+
+#A54 {
+    border-right: none;
+}
+
+#row7 {
+    cursor: pointer;
+    margin-left: 10.7px;
+    /* border: 2px solid black; */
+    height: 150px;
+    width: 99.15%;
+    display: flex;
+}
+
+.spaces5 {
+    /* background-color: greenyellow; */
+    /* background-color: rgb(238, 227, 15); */
+    background-color: rgb(17, 221, 17);
+    border-left: none;
+    display: grid;
+    height: 150px;
+    width: 100px;
+    border-bottom: none;
+    padding-left: 6.75px;
+    cursor: pointer;
+    justify-content: center;
+    
+}
+
+
+.images5 {
+    /* margin-left: -8.49px; */
+    height: 105px;
+    width: 96px;
+}
+
+#road4 {
+    border: none;
+    background-color: rgb(206, 216, 218);
+    width: 200px;
+    height: 150px;
+    border-right: 2px solid black;
+}
+
+
+
+
+#roadsideimage5 {
+    margin-left: 0px;
+    mix-blend-mode: color-burn;
+    height: 90px;
+}
+
+
+#E13 {
+    width: 6.8%;
+}
+
+#E1 {
+    width: 100px;
+    border-left: 2px solid black;
+}
+
+
+/* #row8 {
+    margin-left: 10px;
+    display: flex;
+    border: 1px solid black;
+    width: 99.1%;
+    height: 200px;
+    border-top: none;
+} */
+
+#row8 {
+    cursor: pointer;
+    border: 2px solid black;
+    height: 200px;
+    margin-left: 10px;
+    width: 98.98%;
+    border-top: none;
+    border-bottom: none; 
+    background-color: rgb(206, 216, 218);
+    
+}
+
+/* #dottedline5 {
+    border-bottom: 5px dashed black;
+    margin-left: 22px;
+    position: relative;
+    top: 60px;
+    width: 97%;
+}
+
+#dottedline6 {
+    border-bottom: 5px dashed black;
+    position: relative;
+    top: 120px;
+    margin-left: 22px;
+    width: 97%;
+} */
+
+#parking-logo3 {
+    position: relative;
+    top: 26px;
+    left: 29%;
+    height: 150px;
+    width: 25%;
+    mix-blend-mode: color-burn;
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+#row9 {
+   
+    display: flex;
+    margin-left: 10px;
+    border: 2px solid black;
+    border-top: none;
+    border-bottom: none;
+    height: 150px;
+    width: 98.95%;
+    cursor: pointer;
+}
+
+.spaces6 {
+    /* background-color: greenyellow; */
+    background-color: rgb(17, 221, 17);
+    border-left: none;
+    display: grid;
+    height: 150px;
+    width: 100px;
+    border-top: none;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.images6 {
+    transform: rotate(180deg);
+
+    margin-left: -8px;
+    height: 105px;
+    width: 96px;
+}
+
+.text6 {
+    transform: rotate(180deg);
+}
+
+
+#road5 {
+    border: none;
+    background-color: rgb(206, 216, 218);
+    width: 200px;
+    height: 150px;
+    
+}
+
+
+#roadsideimage6 {
+    margin-left: 0px;
+    mix-blend-mode: color-burn;
+    height: 120px;
+ 
+}
+
+
+#xyz3 {
+    margin-left: 10px;
+    border: none;
+    display: flex;
+    height: 10px;
+}
+
+
+
+#grass3 {
+    border: 2px solid black;
+    border-top: none;
+    padding: 0;
+    height: 10px;
+    width: 86.45%;
+}
+
+
+#grass-space3 {
+    background-color: rgb(206, 216, 218);
+    border: none;
+    width: 13.05%;
+    border-right: 2px solid black;
+
+}
+
+
+#row10 {
+    cursor: pointer;
+    margin-left: 10px;
+    /* border: 2px solid black; */
+    height: 150px;
+    width: 99.159%;
+    display: flex;
+}
+
+.spaces7 {
+    /* background-color: greenyellow; */
+    background-color: rgb(17, 221, 17);
+    border-left: none;
+    display: grid;
+    height: 150px;
+    width: 100px;
+    border-bottom: none;
+    padding-left: 6.75px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+
+.images7 {
+    /* margin-left: -8.49px; */
+    height: 105px;
+    width: 96px;
+}
+
+#road6 {
+    border: none;
+    background-color: rgb(206, 216, 218);
+    width: 200px;
+    height: 150px;
+    border-right: 2px solid black;
+}
+
+
+#roadsideimage7 {
+    margin-left: 0px;
+    mix-blend-mode: color-burn;
+    height: 120px;
+}
+
+#E39 {
+    width: 100px;
+    border-left: 2px solid black;
+}
+
+#row11 {
+
+    border: 2px solid black;
+    height: 200px;
+    margin-left: 10px;
+    width: 98.98%;
+    border-top: none;
+    border-bottom: none; 
+    background-color: rgb(206, 216, 218);
+    
+}
+
+#parking-logo4 {
+    position: relative;
+    top: 10px;
+    left: 33%;
+    height: 180px;
+    width: 18%;
+    mix-blend-mode: color-burn;
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Motor cycle parking Row 12 and 13 */
+
+
+#row12 {
+    display: flex;
+    margin-left: 10px;
+    border: 1px solid black;
+    border-top: none;
+    border-bottom: none;
+    height: 150px;
+    width: 98.95%;
+}
+
+.spaces8 {
+    background-color: rgb(79, 133, 226);
+    border-left: none;
+    display: grid;
+    height: 150px;
+    width: 4.34%;
+    border-top: none;
+    cursor: pointer;
+    /* padding-left: 10px; */
+}
+
+
+.images8 {
+    transform: rotate(180deg);
+     justify-content: center;
+    height: 105px;
+    width: 61.24px;
+    margin-left: -4.5px;
+}
+
+#B1 {
+    width: 4.35%;
+    border-left: 2px solid black;
+    border-left: none;
+}
+
+
+.text8 {
+    transform: rotate(180deg);
+}
+
+#road6 {
+    border: none;
+    background-color: rgb(206, 216, 218);
+    width: 200px;
+    height: 150px;
+    
+}
+
+
+#roadsideimage7 {
+    margin-left: 0px;
+    mix-blend-mode: color-burn;
+    height: 120px;
+ 
+}
+
+
+#xyz4 {
+    margin-left: 10px;
+    border: none;
+    display: flex;
+    height: 10px;
+}
+
+
+
+#grass4 {
+    border: 2px solid black;
+    border-top: none;
+    padding: 0;
+    height: 10px;
+    width: 86.45%;
+}
+
+
+#grass-space4 {
+    background-color: rgb(206, 216, 218);
+    border: none;
+    width: 13.05%;
+    border-right: 2px solid black;
+
+}
+
+
+#row13 {
+    margin-left: 10px;
+    /* border: 2px solid black; */
+    height: 150px;
+    width: 99.159%;
+    display: flex;
+}
+
+.spaces9 {
+    background-color: rgb(79, 133, 226);
+    border-left: none;
+    display: grid;
+    height: 150px;
+    width: 4.34%;
+    border-bottom: none;
+    padding-left: 6.75px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.images9 {
+    /* margin-left: -8.49px; */
+    height: 105px;
+    width: 61.2px;
+}
+
+
+#B40 {
+    width: 4.34%;
+    border-left: 2px solid black;
+}
+
+
+
+#road7 {
+    border: none;
+    background-color: rgb(206, 216, 218);
+    width: 200px;
+    height: 150px;
+    border-right: 2px solid black;
+}
+
+
+#roadsideimage8 {
+    margin-left: 0px;
+    mix-blend-mode: color-burn;
+    height: 120px;
+}
+
+#row14 {
+
+    border: 2px solid black;
+    height: 200px;
+    margin-left: 10px;
+    width: 98.98%;
+    border-top: none;
+    border-bottom: none; 
+    background-color: rgb(206, 216, 218);
+    
+}
+
+#parking-logo5 {
+    position: relative;
+    top: 10px;
+    left: 33%;
+    height: 180px;
+    width: 18%;
+    mix-blend-mode: color-burn;
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+/* Motor cycle parking Row 15 and 16 */
+
+
+#row15 {
+    display: flex;
+    margin-left: 10px;
+    border: 1px solid black;
+    border-top: none;
+    border-bottom: none;
+    height: 150px;
+    width: 98.95%;
+}
+
+.spaces10 {
+    background-color: rgb(79, 133, 226);
+    border-left: none;
+    display: grid;
+    height: 150px;
+    width: 4.345%;
+    border-top: none;
+    cursor: pointer;
+    /* padding-left: 10px; */
+}
+
+
+.images10 {
+    transform: rotate(180deg);
+     justify-content: center;
+    height: 105px;
+    width: 61.24px;
+    margin-left: -4.5px;
+}
+
+#B41 {
+    width: 4.35%;
+    border-left: 2px solid black;
+}
+
+
+.text9 {
+    transform: rotate(180deg);
+}
+
+#road8 {
+    border: none;
+    background-color: rgb(206, 216, 218);
+    width: 200px;
+    height: 150px;
+    
+}
+
+
+#roadsideimage9 {
+    margin-left: 0px;
+    mix-blend-mode: color-burn;
+    height: 120px;
+ 
+}
+
+
+#xyz5 {
+    margin-left: 10px;
+    border: none;
+    display: flex;
+    height: 10px;
+}
+
+
+
+#grass5 {
+    border: 2px solid black;
+    border-top: none;
+    padding: 0;
+    height: 10px;
+    width: 86.45%;
+}
+
+
+#grass-space5 {
+    background-color: rgb(206, 216, 218);
+    border: none;
+    width: 13.05%;
+    border-right: 2px solid black;
+
+}
+
+
+#row16 {
+    margin-left: 10px;
+    /* border: 2px solid black; */
+    height: 150px;
+    width: 99.159%;
+    display: flex;
+}
+
+.spaces11 {
+    background-color: rgb(79, 133, 226);
+    border-left: none;
+    display: grid;
+    height: 150px;
+    width: 4.34%;
+    border-bottom: none;
+    padding-left: 6.75px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.images11 {
+    /* margin-left: -8.49px; */
+    height: 105px;
+    width: 61.2px;
+}
+
+
+#B80 {
+    width: 4.34%;
+    border-left: 2px solid black;
+}
+
+
+
+#road8 {
+    border: none;
+    background-color: rgb(206, 216, 218);
+    width: 200px;
+    height: 150px;
+    border-right: 2px solid black;
+}
+
+
+#roadsideimage9 {
+    margin-left: 0px;
+    mix-blend-mode: color-burn;
+    height: 120px;
+}
+
+#row17 {
+
+    border: 2px solid black;
+    height: 250px;
+    margin-left: 10px;
+    width: 98.98%;
+    border-top: none;
+    border-bottom: none; 
+    background-color: rgb(206, 216, 218);
+    border-bottom: 1px solid black;
+    
+}
+
+#parking-logo6 {
+    position: relative;
+    top: 2.5px;
+    bottom: 2px;
+    height: 98%;
+    width: 40%;
+    mix-blend-mode: color-burn;
+}
+
+#parking-logo7 {
+    position: relative;
+    top: 2.5px;
+    bottom: 2px;
+    left: 150px;
+    height: 98%;
+    width: 30%;
+    mix-blend-mode: color-burn;
+}
+
+/* #parking-logo8 {
+    position: relative;
+    top: 2.5px;
+    bottom: 2px;
+    left: 50px;
+    height: 100%;
+    width: 25%;
+    mix-blend-mode: color-burn;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>parking.com</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="manifest" href="/manifest.json">
+
+</head>
+<body>
+<br>
+<br>
+<div class="cont">
+  <div class="form sign-in">
+    <h2>Welcome</h2>
+    <label>
+      <span>Email</span>
+      <input type="email" id="email_in"/>
+    </label>
+    <label>
+      <span>Password</span>
+      <input type="password" id="password_in" />
+    </label>
+    <button type="button" class="submit" id="sign-in">Sign In</button>
+
+    <div id="signinMessage">
+      <p>Login successful!</p>
+    </div>
+      <div id="loadingSpinner1" >
+        <div class="spinner"></div>
+    </div>
+
+  </div>
+  <div class="sub-cont">
+    <div class="img">
+      <div class="img__text m--up">
+
+        <h3>Don't have an account? Please Sign up!<h3>
+      </div>
+      <div class="img__text m--in">
+
+        <h3>If you already has an account, just sign in.<h3>
+      </div>
+      <div class="img__btn">
+        <span id="SignUp_Button" class="m--up">Sign Up</span>
+        <span id="SignIn_Button" class="m--in">Sign In</span>
+      </div>
+    </div>
+
+
+    <div class="form sign-up">
+      <form>
+      <h2>Create your Account</h2>
+      <label>
+        <span>First Name</span>
+        <input type="text" id="fname_up" required />
+      </label>
+      <label>
+        <span>Last Name</span>
+        <input type="text" id="lname_up"/>
+      </label>
+      <label>
+        <span>Email</span>
+        <input type="email" id="email_up" required />
+      </label>
+      <label>
+        <span>Mobile Number</span>
+        <input type="number" id="mobile_up" required />
+      </label>
+      <label>
+        <span>Password</span>
+        <input type="password" id="password_up" required />
+      </label>
+      <button type="button" class="submit" id="sign-up">Sign Up</button>
+      </form>
+
+      <div id="Already_Exist_Message">
+        <p style = "padding: 10px;"></p>
+        <p>Please Login !!</p>
+      </div>
+
+        <div id="loadingSpinner2" >
+          <div class="spinner"></div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<script src="login.js"></script>
+
+</body>
+</html>

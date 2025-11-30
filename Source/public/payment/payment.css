@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.container {
+    /* display: none; */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+input[type="date"],
+select {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#booking-pdf{
+    display: none;
+    position: relative;
+}
+
+#booking-details p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+
+/* Basic styling for content */
+.content {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+  
+.content {
+    min-width: 700px;
+    min-height: 450px;
+    margin: auto;
+}
+  
+
+  
+#pdf {
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+  
+#booking-img{
+    position: absolute;
+    left: 68%;
+    top: 15%;
+    height: 150px;
+    width: 225px;
+    mix-blend-mode: multiply;
+}
+
+#button3{
+    position: relative;
+    display: flex;
+}
+
+#pdf{
+    position: relative;
+    right: 20%;
+    height: 40px;
+    width: 130px;
+}
+
+#homepage{
+    position: absolute;
+    top: 25%;
+    right: 20%;
+    height: 40px;
+    width: 130px;
+}

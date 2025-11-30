@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parking Slot Booking</title>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script> <!-- Razorpay JS Library -->
+    <link rel="stylesheet" href="payment.css">
+    <link rel="manifest" href="/manifest.json">
+
+</head>
+<body>
+
+    <div class="container">
+        <!-- Booking Form -->
+        <div id="booking-form">
+            <h2 id="xxx">Book Your Parking Slot</h2>
+            
+            <form id="parking-form">
+                <label for="parking-date">Parking Date:</label>
+                <input type="date" id="parking-date" name="parking-date" required>
+
+                <button type="submit">Book Now</button>
+            </form>
+        </div>
+
+        <!-- Booking Details Div -->
+        <div id="booking-details" style="display: none;">
+            <h2>Booking Details</h2>
+            <h4 id="details-name"></h4>
+            <p id="details-date"></p>
+            <p id="details-time"></p>
+            <p id="details-price"></p>
+            <button onclick="resetForm()">Edit Booking</button>
+            <button id="rzp-button1">Pay Now</button>
+            
+        </div>
+
+        <div id="booking-pdf">
+        <div class="content" id="content">
+            <h1>Thank-you for choosing us!</h1>
+            <p style="color: Green">Payment Successfull</p>
+            
+            <p id="booking-name"></p>
+            <p id="booking-email"></p>
+            <p id="booking-id"></p>
+            <p id="booking-complex"></p>
+            <p id="booking-slot"></p>
+            <p id="booking-date"></p>
+            <p id="booking-time">Time: 10:00 AM to 10:00 PM</p>
+            <p id="booking-phoneNo"></p>
+            <p id="booking-vehicle"></p>
+            <p id="booking-price"></p>
+            <br>
+            <br>
+            <p  style="display: inline;">Signature:
+                <span id="booking-signature" style="display: inline; color: red;"></span>
+            </p>
+            <img id="booking-img" src="image.png" alt="">
+
+        </div>
+        <br>
+        <p id="booking-paragraph">Automatically download started if not click to download....</p>
+        <div id="button3">
+        <button id="pdf" onclick="downloadPDF()">Download</button>
+        <button id="homepage" onclick="window.location.href='../homepage/homepage.html'"></button>
+        </div>
+        </div>
+    </div>
+
+
+    <!-- Link to External JavaScript File -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+    <script src="payment.js"></script>
+    
+      
+
+</body>
+</html>
