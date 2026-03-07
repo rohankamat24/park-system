@@ -1,4 +1,4 @@
-# 🚗 Smart Parking System 
+# 🚗 Smart Parking System
 ### 🅿️ Real-Time Parking Marketplace
 
 A real-time web-based platform that connects **vehicle owners** with **landowners** who have available parking spaces.
